@@ -1,0 +1,112 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+    
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    
+}
+
+.container {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    box-shadow: 0px 0px 12px -4px rgba(0,0,0,0.74);;
+    border-radius: 10px;
+    border: 1px solid rgb(244, 240, 240);
+}
+.box-1 {
+    width: 450px;
+    text-align: center;
+    font-size: 35px;
+    margin: 20px 0px 15px 0px;
+    color: #cc66ff;
+    font-weight: bolder !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-bottom: 2px solid grey;
+    letter-spacing: 2px;
+    padding: 10px;
+
+}
+
+.box-2 {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+
+}
+
+.box-3 {
+    
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e9ecef;
+    border-radius: 3px;
+    height: 25px;
+    
+
+}
+
+.box-31 {
+    background-color: #e9ecef;
+    height: 100%;
+    
+}
+
+.placeholderbox {
+   
+    border: none;
+    height: 23px;
+    width: 190px;
+    padding-left: 5px;
+}
+
+button {
+    border: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 450px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: bolder !important;
+    color: white;
+    background: linear-gradient(to left, #00ccff 0%, #cc66ff 100%)
+}
+
+button:hover {
+    color: #daacf0;
+}
+
+.box-5 {
+    margin-top: 20px;
+}
+.back {
+    font-size: 13px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #cc66ff;
+
+}
+.back:hover{
+    color: rgb(231, 74, 74);
+}
